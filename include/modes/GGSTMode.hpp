@@ -7,7 +7,7 @@
 
 class GGSTMode : public ControllerMode {
   public:
-    FgcMode(socd::SocdType horizontal_socd, socd::SocdType vertical_socd);
+    GGSTMode(socd::SocdType horizontal_socd, socd::SocdType vertical_socd);
 
   private:
     void UpdateDigitalOutputs(InputState &inputs, OutputState &outputs);
